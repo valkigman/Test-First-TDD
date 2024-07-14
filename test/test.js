@@ -12,11 +12,11 @@
 // *Cycle 1 (rectified)*
 
 import {assert} from 'chai';
-import {multiplyAddn} from '../multiply_addn.js';
+import {multiply} from '../multiply.js';
 
 describe('Multiplier', function(){
     it('multiply should return product', function(){
-        assert.equal(multiplyAddn(1,1), 1, '1x1 = 1');
+        assert.equal(multiply(1,1), 1, '1x1 = 1');
     });
         it('multiply should return product', function(){
         assert.equal(multiply(2,2), 4, '2x2 = 4');
